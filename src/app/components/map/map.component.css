@@ -1,0 +1,15 @@
+.map-text {
+    color: black;
+}
+
+.map-text-container {
+    background-color: rgb(255, 214, 0);
+    border-radius: 25px;
+}
+
+.legobg {
+    background-image: url('../../../assets/images/legos_bg.png');
+    height: 28px;
+    background-repeat: repeat-x;
+    background-position: center center;
+}

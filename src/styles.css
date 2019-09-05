@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Lego BFF";
+    src: url('./assets/LegoBFF.otf');
+}
+
+body {
+    font-family: 'Lego BFF' !important;
+    background-color: rgb(1, 177, 234);
+}
