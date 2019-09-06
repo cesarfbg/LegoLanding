@@ -1,0 +1,22 @@
+<div class="container pt-4">
+    <div class="w-100 mx-0 row py-4">
+        <div class="col text-center">
+            <span class="schedule-text py-1 px-3">Estaciones</span>
+        </div>
+    </div>
+
+    <div class="row pb-5">
+        <div class="col-10 mx-auto station" *ngFor="let station of stations; let idx = index;" (click)="show(idx)">
+            <div class="row">
+                <div class="col-11 station-title">{{ station[0] }}</div>
+                <div class="col-1 plus">+</div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img *ngIf="station[2]" class="img-fluid" [src]="'assets/images/'+station[1]" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>

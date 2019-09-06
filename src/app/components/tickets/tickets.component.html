@@ -1,5 +1,5 @@
 <div class="tickets container-fluid">
-    <div class="row pt-5">
+    <div class="w-100 mx-0 row pt-5">
         <div class="col-12 text-center">
                 <p class="ticket-text">
                     {{ ticketText1 }} <br>
@@ -7,26 +7,44 @@
                 </p>
         </div>
     </div>
-    <div class="row pt-5">
+    <div class="w-100 mx-0 row pt-5">
         <div class="col-4 text-right">
                 <span class="free-day py-1 px-3">Free Day</span>
             </div>
         <div class="col-8">
             <ul class="ticket-list">
-                <li>Puedes ir a LEGO Fun Fest el día que quieras sin restricción de horario.</li>
+                <li>Puedes ir a LEGO® Fun Fest el día que quieras sin restricción de horario.</li>
                 <li>Hasta agotar boletería.</li>
                 <li>Válida para un solo ingreso.</li>
             </ul>
         </div>
     </div>
-    <div class="row pt-5">
+    <div class="w-100 mx-0 row pt-5">
         <div class="col text-center">
                 <span class="ticket-text py-1 px-3">Venta de entradas - General</span>
         </div>
     </div>
-    <div class="row">
-        <div class="col-10 col-lg-6" style="background-color: red;">
-
+    <div class="w-100 mx-0 row pt-3">
+        <div class="col-12 col-lg-6 text-center mx-auto">
+            <div class="d-inline-block ticket-sub-info clear py-1 px-3 mx-4 h4">Tipo</div>
+            <div class="d-inline-block ticket-sub-info clear py-1 px-3 mx-4 h4">Valor Entrada</div>
         </div>
     </div>
+    <div class="w-100 mx-0 row pt-0" *ngFor="let item of items">
+        <div class="col-12 col-lg-6 text-center mx-auto">
+            <div class="d-inline-block ticket-sub-info py-1 px-3 mx-4 h6">{{ item[0] }}</div>
+            <div class="d-inline-block ticket-sub-info py-1 px-3 mx-4 h6">{{ item[1] }}</div>
+        </div>
+    </div>
+    <div class="w-100 mx-0 row pt-5">
+        <div class="col text-center">
+                <span class="ticket-text py-1 px-3">Horarios</span>
+        </div>
+    </div>
+    <div class="w-100 mx-0 row pt-3 mb-5 pb-5">
+        <div class="col-12 col-lg-6 text-center mx-auto">
+            <div class="d-inline-block ticket-sub-info big py-1 px-3 mx-4 h6">Lunes a Jueves 09:00 a.m. - 09:00 p.m. <br> V-S-D-Fest 09:00 a.m. - 03:00 p.m. / 04:00 p.m. - 10:00 p.m.</div>
+        </div>
+    </div>
+    <div class="legobg w-100"></div>
 </div>

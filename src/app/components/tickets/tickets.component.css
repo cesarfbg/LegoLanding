@@ -22,8 +22,45 @@
     color: black;
 }
 
+.ticket-sub-text {
+    color: black !important;
+}
+
+.ticket-sub-info {
+    color: white;
+    background-color: red;
+    border-radius: 6px;
+    width: 180px !important;
+    height: auto;
+}
+
+.ticket-sub-info.big {
+    width: 420px !important;
+}
+
+.clear {
+    background-color: transparent;
+    color: black;
+}
+
+.legobg {
+    background-image: url('../../../assets/images/legos_blue_bg.png');
+    height: 28px;
+    background-repeat: repeat-x;
+    background-position: center center;
+}
+
 @media (max-width: 690px) {
     .free-day {
-        font-size: 16px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 500px) {
+    .ticket-sub-info {
+        width: 90px !important;
+    }
+    .ticket-sub-info.big {
+        width: 250px !important;
     }
 }
