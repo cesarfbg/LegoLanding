@@ -20,6 +20,7 @@
 .ticket-list {
     list-style-image: url('../../../assets/images/list-marker.png');
     color: black;
+    font-size: 22px;
 }
 
 .ticket-sub-text {
@@ -54,6 +55,9 @@
     .free-day {
         font-size: 12px;
     }
+    .ticket-list {
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -62,5 +66,8 @@
     }
     .ticket-sub-info.big {
         width: 250px !important;
+    }
+    .ticket-list {
+        font-size: 14px;
     }
 }
