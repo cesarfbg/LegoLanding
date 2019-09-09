@@ -31,8 +31,18 @@
     color: white;
     background-color: red;
     border-radius: 6px;
-    width: 180px !important;
     height: auto;
+    min-width: 140px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.ticket-sub-title {
+    height: auto;
+    min-width: 140px;
+    max-width: 300px;
+    text-align: center;
+    font-size: 20px;
 }
 
 .ticket-sub-info.big {
@@ -53,7 +63,7 @@
 
 @media (max-width: 690px) {
     .free-day {
-        font-size: 12px;
+        font-size: 20px;
     }
     .ticket-list {
         font-size: 18px;

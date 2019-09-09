@@ -7,6 +7,12 @@
 .station-title {
     color: black;
     font-size: 20px;
+    font-family: 'Burbank Big Regular Medium' !important;
+}
+
+.bigger {
+    font-size: 20px;
+    font-family: 'Burbank Big Regular Medium' !important;
 }
 
 .station {
@@ -18,4 +24,10 @@
 
 .plus {
     font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .bigger {
+        font-size: 16px;
+    }
 }

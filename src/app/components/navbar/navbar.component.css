@@ -8,12 +8,16 @@
 .navbar {
     background-color: rgb(255, 214, 0) !important;
     padding: 0px !important;
+    font-family: 'Burbank Big Condensed' !important;
+    font-size: 20px !important;
 }
 
 .v-separator {
     border: 1px solid #f0f0f0;
     margin-top: 0.8rem;
     margin-bottom: 0.8rem;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .navbar-toggler {

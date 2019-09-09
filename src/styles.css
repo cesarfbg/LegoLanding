@@ -4,12 +4,25 @@
     src: url('./assets/LegoBFF.otf');
 }
 
-body {
-    font-family: 'Lego BFF' !important;
-    background-color: rgb(1, 177, 234);
+@font-face {
+  font-family: "Burbank Big Condensed";
+  src: url('./assets/BurbankBigCondensed-Bold.otf');
 }
 
-@charset "UTF-8";
+@font-face {
+  font-family: "Burbank Big Regular Light";
+  src: url('./assets/BurbankBigRegular Light.otf');
+}
+
+@font-face {
+  font-family: "Burbank Big Regular Medium";
+  src: url('./assets/BurbankBigRegular Medium.otf');
+}
+
+body {
+  font-family: 'Burbank Big Regular Medium' !important;
+  background-color: rgb(1, 177, 234);
+}
 
 /*!
  * animate.css -https://daneden.github.io/animate.css/

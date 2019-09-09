@@ -8,9 +8,12 @@
         </div>
     </div>
     <div class="w-100 mx-0 row pt-5">
-        <div class="col-4 text-right">
-                <span class="free-day py-1 px-3">Free Day</span>
-            </div>
+        <!-- <div class="col-4 text-right">
+            <span class="free-day py-1 px-3">Free Day</span>
+        </div> -->
+        <div class="col-4 d-flex align-items-center justify-content-center">
+            <span class="free-day py-1 px-1 px-md-3">Free Day</span>
+        </div>
         <div class="col-8">
             <ul class="ticket-list">
                 <li>Puedes ir a LEGO® Fun Fest el día que quieras sin restricción de horario.</li>
@@ -24,18 +27,51 @@
                 <span class="ticket-text py-1 px-3">Venta de entradas</span>
         </div>
     </div>
-    <div class="w-100 mx-0 row pt-3">
-        <div class="col-12 col-lg-6 text-center mx-auto">
-            <div class="d-inline-block ticket-sub-info clear py-1 px-3 mx-4 h4">Tipo</div>
-            <div class="d-inline-block ticket-sub-info clear py-1 px-3 mx-4 h4">Valor Entrada</div>
+
+    <div class="row w-100 m-0">
+           <div class="col-6">
+                <div class="row pr-0 pr-md-5">
+                    <div class="col-12">
+                        <p class="text-center ml-auto ticket-sub-title">
+                            <b>Tipo</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row pl-0 pl-md-5">
+                    <div class="col-12">
+                        <p class="text-center mr-auto ticket-sub-title">
+                            <b>Valor</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div *ngFor="let item of items">
+        <div class="row w-100 m-0">
+           <div class="col-6">
+                <div class="row pr-0 pr-md-5">
+                    <div class="col-12">
+                        <p class="ticket-sub-info ml-auto">
+                            <b>{{ item[0] }}</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="row pl-0 pl-md-5">
+                    <div class="col-12">
+                        <p class="ticket-sub-info mr-auto">
+                            <b>{{ item[1] }}</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="w-100 mx-0 row pt-0" *ngFor="let item of items">
-        <div class="col-12 col-lg-6 text-center mx-auto">
-            <div class="d-inline-block ticket-sub-info py-1 px-3 mx-4 h6">{{ item[0] }}</div>
-            <div class="d-inline-block ticket-sub-info py-1 px-3 mx-4 h6">{{ item[1] }}</div>
-        </div>
-    </div>
+
     <div class="w-100 mx-0 row pt-5">
         <div class="col text-center">
                 <span class="ticket-text py-1 px-3">Horarios</span>

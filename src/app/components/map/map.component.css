@@ -13,3 +13,7 @@
     background-repeat: repeat-x;
     background-position: center center;
 }
+
+.card-title {
+    font-family: 'Burbank Big Condensed' !important;
+}
