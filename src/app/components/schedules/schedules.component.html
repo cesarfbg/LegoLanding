@@ -4,12 +4,7 @@
             <span class="schedule-text py-1 px-3">Estaciones</span>
         </div>
     </div>
-    
-
-
-
-
-    <div class="row">
+    <div class="row w-100 m-0">
         <div class="col-12 col-lg-6">
             <div class="row" *ngFor="let station of stations1; let idx = index;" (click)="show(idx, 1)">
                 <div class="col-10 mx-auto station">
@@ -43,40 +38,4 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-    <!-- <div class="row pb-5">
-        <div class="col-10 mx-auto station" *ngFor="let station of stations; let idx = index;" (click)="show(idx)">
-            <div class="row">
-                <div class="col-10 station-title">{{ station[0] }}</div>
-                <div class="col-2 plus text-right">+</div>
-            </div>
-            <div class="row">
-                <div class="col" *ngIf="station[2]">
-                    <img class="img-fluid" [src]="'assets/images/'+station[1]" alt="">
-                    <p class="p-3 text-justify bigger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ex, saepe quam aperiam officia dolorum. Esse vero quibusdam adipisci quam? Veritatis, id. Rerum maxime ex accusantium ipsa a sapiente in, animi saepe adipisci. Neque porro, ipsa architecto culpa aut cum veniam quos temporibus repellat quidem corrupti quasi ad illum sapiente.</p>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-
-    <!-- <div class="row pb-5">
-        <div class="col-10 mx-auto station" *ngFor="let station of stations; let idx = index;" (click)="show(idx)">
-            <div class="row">
-                <div class="col-10 station-title">{{ station[0] }}</div>
-                <div class="col-2 plus text-right">+</div>
-            </div>
-            <div class="row">
-                <div class="col" *ngIf="station[2]">
-                    <img class="img-fluid" [src]="'assets/images/'+station[1]" alt="">
-                    <p class="p-3 text-justify bigger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ex, saepe quam aperiam officia dolorum. Esse vero quibusdam adipisci quam? Veritatis, id. Rerum maxime ex accusantium ipsa a sapiente in, animi saepe adipisci. Neque porro, ipsa architecto culpa aut cum veniam quos temporibus repellat quidem corrupti quasi ad illum sapiente.</p>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    
 </div>
