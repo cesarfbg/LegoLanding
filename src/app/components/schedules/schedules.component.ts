@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class SchedulesComponent {
 
-  stations = [
+  stations1 = [
     ['Construcción Monocromática', 'station01.jpg', false],
     ['Zona de desafíos', 'station01.jpg', false],
     ['Crea tu País', 'station01.jpg', false],
@@ -16,7 +16,10 @@ export class SchedulesComponent {
     ['Ninjago', 'station01.jpg', false],
     ['Rampa de carreras', 'station01.jpg', false],
     ['Star wars', 'station01.jpg', false],
-    ['Avengers', 'station01.jpg', false],
+    ['Avengers', 'station01.jpg', false]
+  ];
+
+  stations2 = [
     ['Lego friends', 'station01.jpg', false],
     ['Lego city', 'station01.jpg', false],
     ['Lago duplo', 'station01.jpg', false],
@@ -28,8 +31,12 @@ export class SchedulesComponent {
     ['Tienda Lego', 'station01.jpg', false]
   ];
 
-  show( idx ) {
-    this.stations[idx][2] = !this.stations[idx][2];
+  show( idx, arr ) {
+    if ( arr === 1) {
+      this.stations1[idx][2] = !this.stations1[idx][2];
+    } else if (arr === 2) {
+      this.stations2[idx][2] = !this.stations2[idx][2];
+    }
   }
 
 }
