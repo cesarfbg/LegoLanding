@@ -1,22 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
     font-family: "Lego BFF";
-    src: url('./assets/LegoBFF.otf');
+    src: url('./assets/fonts/LegoBFF.otf');
 }
 
 @font-face {
   font-family: "Burbank Big Condensed";
-  src: url('./assets/BurbankBigCondensed-Bold.otf');
+  src: url('./assets/fonts/BurbankBigCondensed-Bold.otf');
 }
 
 @font-face {
   font-family: "Burbank Big Regular Light";
-  src: url('./assets/BurbankBigRegular Light.otf');
+  src: url('./assets/fonts/BurbankBigRegular Light.otf');
 }
 
 @font-face {
   font-family: "Burbank Big Regular Medium";
-  src: url('./assets/BurbankBigRegular Medium.otf');
+  src: url('./assets/fonts/BurbankBigRegular Medium.otf');
 }
 
 body {

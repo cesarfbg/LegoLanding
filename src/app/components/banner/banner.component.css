@@ -8,7 +8,7 @@
 }
 
 .banner {
-    background-image: url('../../../assets/images/mobile_banner.jpg');
+    background-image: url('../../../assets/images/banner/mobile_banner.jpg');
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center top;
@@ -16,7 +16,7 @@
 
 @media (min-width: 768px) {
     .banner {
-        background-image: url('../../../assets/images/desktop_banner.jpg');
+        background-image: url('../../../assets/images/banner/desktop_banner.jpg');
         background-repeat: no-repeat;
         background-size: 100% auto;
         background-position: center top;

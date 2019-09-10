@@ -18,7 +18,7 @@
 }
 
 .ticket-list {
-    list-style-image: url('../../../assets/images/list-marker.png');
+    list-style-image: url('../../../assets/images/marker/list-marker.png');
     color: black;
     font-size: 22px;
 }
@@ -55,7 +55,7 @@
 }
 
 .legobg {
-    background-image: url('../../../assets/images/legos_blue_bg.png');
+    background-image: url('../../../assets/images/separators/legos_blue_bg.png');
     height: 28px;
     background-repeat: repeat-x;
     background-position: center center;

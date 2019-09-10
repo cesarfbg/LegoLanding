@@ -17,3 +17,13 @@
 .carousel-block {
     cursor: pointer !important;
 }
+
+.sliderr {
+    max-height: 500px !important;
+    width: auto !important;
+    max-width: 100% !important;
+}
+
+.carousel-item {
+    background-color: rgba(0, 0, 0, 0.7);
+}

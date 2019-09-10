@@ -14,8 +14,9 @@
     <div id="carousel" class="carousel slide animated fadeIn fast" data-ride="carousel" *ngIf="showSlide">
         <div class="carousel-exit text-right gallery-text" (click)="carouselExit()">X</div>
         <div class="carousel-inner">
-            <div class="carousel-item" *ngFor="let slide of slides" [ngClass]="{'active': slide[1] === true}">
-                <img [src]="slide[0]" class="d-block w-100" data-interval="999999">
+            <div class="carousel-item" *ngFor="let slide of slides; let idx = index;" [ngClass]="{'active': slide[1] === true}"
+                 [style]="bgStyle+idx+'.jpg'">
+                <img [src]="slide[2]" class="sliderr d-block mx-auto" data-interval="999999">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -28,3 +29,13 @@
         </a>
     </div>
 </div>
+
+    - Preview Foto 3
+    - Preview Foto 4
+    - Preview Foto 5
+    - Preview Foto 13
+    - Preview Foto 14
+    - Preview Foto 15
+    - Preview Foto 16
+    - Preview Foto 17
+    - Preview Foto 18

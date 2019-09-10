@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class MapComponent {
 
-  mapText1 = 'Ven y diviértete construtendo en familia';
+  mapText1 = 'Ven y diviértete construyendo en familia';
   mapText2 = '¡No te pierdas el LEGO® Fun Fest Colombia 2019!';
 
 }

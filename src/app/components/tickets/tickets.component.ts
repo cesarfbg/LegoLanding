@@ -7,16 +7,16 @@ import { Component } from '@angular/core';
 })
 export class TicketsComponent {
 
-  ticketText1 = '¿Aún no decides que día ir?';
+  ticketText1 = '¿Aún no decides qué día ir?';
   ticketText2 = 'Asegura tu visita el día que quieras con el pase Free Day';
 
   items = [
-    ['Niño (Lun a Jue)', '$ 11.500'],
-    ['Adulto (Lun a Jue)', '$ 13.500'],
-    ['Niño (V-S-D-Fest)', '$ 20.500'],
+    ['Niño (Lun a Jue)', '$ 12.000'],
+    ['Adulto (Lun a Jue)', '$ 14.000'],
+    ['Niño (V-S-D-Fest)', '$ 22.000'],
     ['Adulto (V-S-D-Fest)', '$ 25.000'],
-    ['Free Day Niño', '$ 23.500'],
-    ['Free Day Adulto', '$ 28.500']
+    ['Free Day Niño', '$ 25.000'],
+    ['Free Day Adulto', '$ 28.000']
   ];
 
 }
