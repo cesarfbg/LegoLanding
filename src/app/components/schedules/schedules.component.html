@@ -13,7 +13,7 @@
                         <div class="col-2 plus text-right">+</div>
                     </div>
                     <div class="row">
-                        <div class="col animated bounceIn fast" *ngIf="station[3]">
+                        <div class="col animated bounceIn fast" [ngClass]="{'d-none': !station[3]}">
                             <img class="img-fluid" [src]="'assets/images/stations/'+station[1]" alt="">
                             <p class="p-3 mb-0 text-justify bigger">{{ station[2] }}</p>
                         </div>
@@ -29,7 +29,7 @@
                         <div class="col-2 plus text-right">+</div>
                     </div>
                     <div class="row">
-                        <div class="col animated bounceIn faster" *ngIf="station[3]">
+                        <div class="col animated bounceIn faster" [ngClass]="{'d-none': !station[3]}">
                             <img class="img-fluid" [src]="'assets/images/stations/'+station[1]" alt="">
                             <p class="p-3 mb-0 text-justify bigger">{{ station[2] }}</p>
                         </div>
