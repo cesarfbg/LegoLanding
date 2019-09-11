@@ -22,6 +22,7 @@
 body {
   font-family: 'Burbank Big Regular Medium' !important;
   background-color: rgb(1, 177, 234);
+  overflow-x: hidden !important;
 }
 
 /*!

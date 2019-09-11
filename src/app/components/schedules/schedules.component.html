@@ -5,7 +5,7 @@
         </div>
     </div>
     <div class="row w-100 m-0">
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 animated fadeInLeft fast">
             <div class="row" *ngFor="let station of stations1; let idx = index;" (click)="show(idx, 1)">
                 <div class="col-10 mx-auto station">
                     <div class="row">
@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 animated fadeInRight fast">
             <div class="row" *ngFor="let station of stations2; let idx = index;" (click)="show(idx, 2)">
                 <div class="col-10 mx-auto station">
                     <div class="row">
