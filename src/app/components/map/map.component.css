@@ -16,4 +16,11 @@
 
 .card-title {
     font-family: 'Burbank Big Condensed' !important;
+    font-size: 34px !important;
+}
+
+@media (max-width: 768px) {
+    .card-title {
+        font-size: 26px !important;
+    }
 }

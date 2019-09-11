@@ -11,3 +11,7 @@
 .lego-footer {
     color: black !important;
 }
+
+.clickable {
+    cursor: pointer !important;
+}
