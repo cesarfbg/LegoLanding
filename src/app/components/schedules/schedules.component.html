@@ -14,7 +14,7 @@
                     </div>
                     <div class="row">
                         <div class="col animated bounceIn faster" [ngClass]="{'bounceOut': !station[3], 'd-none': station[4]}">
-                            <img class="img-fluid" [src]="'assets/images/stations/'+station[1]" alt="">
+                            <img *ngIf="station[1]" class="img-fluid" [src]="'assets/images/stations/'+station[1]" alt="">
                             <p class="p-3 mb-0 text-justify bigger">{{ station[2] }}</p>
                         </div>
                     </div>
@@ -30,7 +30,7 @@
                     </div>
                     <div class="row">
                         <div class="col animated bounceIn faster" [ngClass]="{'bounceOut': !station[3], 'd-none': station[4]}">
-                            <img class="img-fluid" [src]="'assets/images/stations/'+station[1]" alt="">
+                            <img *ngIf="station[1]" class="img-fluid" [src]="'assets/images/stations/'+station[1]" alt="">
                             <p class="p-3 mb-0 text-justify bigger">{{ station[2] }}</p>
                         </div>
                     </div>
