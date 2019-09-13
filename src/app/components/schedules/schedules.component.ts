@@ -16,7 +16,7 @@ export class SchedulesComponent {
     ['Lago DUPLO®', 'Estacion_LagoDuplo.jpg', 'En este gran lago de Duplo™, lo más pequeños podrán dejar volar su imaginación con los ladrillos de LEGO® diseñados especialmente para ellos.', false, true],
     ['LEGO® City', 'Estacion_LegoCity.jpg', 'Crea las más divertidas aventuras en esta ciudad, ayudándonos a resolver diferentes misiones.', false, true],
     ['LEGO® Friends', 'Estacion_LegoFriends.jpg', 'Da un gran concierto para tus amigos como un artista, con los accesorios que encontrarás en el camerino. Además, podrás construir con Andrea, Mia, Emma, Olivia y Stephanie nuevas aventuras dentro de Harley City.', false, true],
-    ['Tienda LEGO®', '', 'Aquí encontrarás las mejores Minifiguras, ladrillos y ediciones especiales que LEGO® tiene para ti.', false, true]
+    ['Tienda LEGO®', 'Estacion_TiendaLego.jpg', 'Aquí encontrarás las mejores Minifiguras, ladrillos y ediciones especiales que LEGO® tiene para ti.', false, true]
   ];
 
   stations2 = [
