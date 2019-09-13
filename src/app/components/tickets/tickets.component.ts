@@ -16,7 +16,8 @@ export class TicketsComponent {
     ['Niño (V-S-D-Fest)', '$ 22.000'],
     ['Adulto (V-S-D-Fest)', '$ 25.000'],
     ['Free Day Niño', '$ 25.000'],
-    ['Free Day Adulto', '$ 28.000']
+    ['Free Day Adulto', '$ 28.000'],
+    ['Niños Menos de 3 Años', '¡Gratis!']
   ];
 
 }
